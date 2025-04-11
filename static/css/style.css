@@ -47,15 +47,15 @@ body {
     cursor: pointer;
 }
 #section2 main{
+    margin-top: 16%;
     display: flex;
     flex-direction: column;
-    margin-top: 17%;
     align-items:flex-start;
     margin-left: 40%;
     font-family: 'Segoe UI';
 }
 #headbutton {
-    width: 100px;
+    width: 150px;
     padding: 7px;
     background-color: red;
     color: white;
@@ -72,39 +72,76 @@ body {
 }
 #subhead2 {
     color: rgb(221, 199, 199);
-    margin-top: -7px;
     font-size: 20px;
+    margin-top: -10px;
     margin-left: 4px;
 }
-#body_sectiondiv{
-    position: relative;
-    padding: 20px;
-    font-size: 40px;
+#section2_head1 {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    justify-content: center;
-    background: linear-gradient(rgba(193, 79, 79, 0.2), rgba(238, 195, 40, 0.2));
+    font-size: 30px;
+    background: linear-gradient(rgba(192, 88, 88, 0.2), rgba(236, 185, 56, 0.1));
     text-shadow: 1px 1px 2px rgb(96, 96, 96);
-    font-family: 'Segoe UI';
+    position: relative;
+    height: 140px;
 }
-#body_card {
-    width: 80vw;
+#section2_head {
+    margin-top: -20px;
+}
+#section2_div1 {
+    margin-left: 12%;
     position: absolute;
-    display: flex;
-    flex-direction: row;
-    padding: 10px;
-    margin-left: 6%;
-    justify-content: center;
-
+    margin-top: -25px;
 }
-#card1{
-    width: 200px;
-    margin-right: 10%;
-    background-color: rgb(215, 214, 214);
+#card_1 {
+    background-color: rgb(212, 242, 234);
+    width: 250px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 4%;
     padding: 10px;
-    bottom: 10%;
 }
-#card2{
-
+#card1_div1 {
+    text-align: center;
+    margin-top: 10px;
+}
+#card_2 {
+    background-color: rgb(212, 242, 234);
+    width: 250px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 4%;
+    padding: 10px;
+}
+#card_3 {
+    background-color: rgb(212, 242, 234);
+    border: none;
+    border-radius: 5px;
+    width: 250px;
+    margin-right: 4%;
+    padding: 10px;
+}
+#card_4 {
+    background-color: rgb(212, 242, 234);
+    border: none;
+    border-radius: 5px;
+    width: 250px;
+    padding: 10px;
+}
+.card_head {
+    margin-top: 15px;
+    text-align: center;
+    font-weight:bold;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+.card-subhead {
+    font-size: 20px;
+    margin-top: -3px;
+}
+.card-subhead2 {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 17px;
 }

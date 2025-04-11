@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'node_modules/bootstrap-icons/font/bootstrap-icons.css' %}">
+    <link rel="stylesheet" href="{% static 'node_modules/bootstrap/dist/css/bootstrap.css' %}">
     
 </head>
 <body>
@@ -38,40 +40,50 @@
                 <main>
                     <span id="subhead1">Hawaii</span>
                     <span id="subhead2">From $980</span>
-                    <button id="headbutton">More info</button>
+                    <a href="/login"><button id="headbutton">More info <span class="bi bi-chevron-right"></span></button></a>
                 </main>
             </section>
         </section>
     </header>
 
-    <section id="body_section2">
+    <section>
 
-        <div id="body_sectiondiv">
-            <span>Fantastic Holidays in</span>
+        <div id="section2_head1">
+            <span id="section2_head">Fantastic Holidays in</span>
         </div>
 
-        <div id="body_card">
-
-            <div id="card1">
-                <span>Best Price <span id="card2">Guarantee</span></span>
-                <p>We are organise your holidays with in your affodable budget</p>
+        <div class="d-flex" id="section2_div1">
+            <div id="card_1">
+                <div id="card1_div1">
+                    <img src="{% static 'images/guarantee.png' %}" alt="" width="50px" height="50px">
+                </div>
+                <div class="card_head">Best Price <div class="card-subhead">Guarantee</div></div>
+                <div class="card-subhead2">We are organise your holidays with in your affodable budget</div>
             </div>
 
-            <div class="card">
-                <span>Travellers Love Us</span>
-                <p>Your travel goes enjoyfull and safely own by us</p>
+            <div id="card_2">
+                <div id="card1_div1">
+                    <img src="{% static 'images/love.png' %}" alt="" width="50px" height="50px">
+                </div>
+                <div class="card_head">Travellers Love Us</div>
+                <div class="card-subhead2">Your travel goes enjoyfull and safely own by us</div>
             </div>
-
-            <div class="card">
-                <span>Best Travel Agent</span>
-                <p>We are always provides best guide to enjoy your travel and behave like a friend</p>
+            <div id="card_3">
+                <div id="card1_div1">
+                    <img src="{% static 'images/user.png' %}" alt="" width="50px" height="50px">
+                </div>
+                <div class="card_head">Best Travel Agent</div>
+                <div class="card-subhead2">We are always provides best guide to enjoy your travel and behave like a friend</div>
             </div>
-
-            <div class="card">
-                <span>Our Dedicated Support</span>
-                <p>We are always touch with you during your journey</p>
+            <div id="card_4">
+                <div id="card1_div1">
+                    <img src="{% static 'images/customer-support.png' %}" alt="" width="50px" height="50px">
+                </div>
+                <div class="card_head">Our Dedicated <div class="card-subhead">Support</div></div>
+                <div class="card-subhead2">We are always touch with you during your journey</div>
             </div>
         </div>
+
     </section>
 
     <footer>
